@@ -7,5 +7,20 @@
   background-color: rgb(50, 167, 145);
   height: 80px;
   width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
+.trybewarts-login {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: end;
+  align-self: center;
+}
+
+#button-password {
+  align-items: center;
+}
+
 
