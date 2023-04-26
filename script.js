@@ -17,3 +17,15 @@ forms.id = 'evaluation-form';
 
 const imagemColores = document.querySelector('#trybewarts-forms-logo');
 main.appendChild(imagemColores);
+const input = document.createElement('input');
+input.id = 'input-name';
+input.setAttribute('placeholder', 'Nome');
+forms.appendChild(input);
+const input2 = document.createElement('input');
+input2.id = 'input-lastname';
+input2.setAttribute('placeholder', 'Sobrenome');
+forms.appendChild(input2);
+const input3 = document.createElement('input');
+input3.id = 'input-email';
+input3.setAttribute('placeholder', 'Email');
+forms.appendChild(input3);
