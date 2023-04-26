@@ -9,3 +9,9 @@ botao.addEventListener('click', () => {
     alert('Email ou senha inválidos.');
   }
 });
+const main = document.createElement('main');
+const forms = document.createElement('form');
+document.body.appendChild(main);
+main.appendChild(forms);
+forms.id = 'evaluation-form';
+
