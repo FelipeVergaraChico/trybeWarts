@@ -16,4 +16,16 @@
   align-items: center;
 }
 
+.trybewarts-login {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: end;
+  align-self: center;
+}
+
+#button-password {
+  align-items: center;
+}
+
 
