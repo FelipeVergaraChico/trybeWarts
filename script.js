@@ -13,5 +13,7 @@ const main = document.createElement('main');
 const forms = document.createElement('form');
 document.body.appendChild(main);
 main.appendChild(forms);
-
 forms.id = 'evaluation-form';
+
+const imagemColores = document.querySelector('#trybewarts-forms-logo');
+main.appendChild(imagemColores);
