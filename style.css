@@ -6,10 +6,12 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
 #trybewarts-header-title {
   align-self: center;
   align-items: center;
 }
+
 .trybewarts-login {
   display: flex;
   color: white;
@@ -17,6 +19,7 @@
   justify-content: end;
   align-self: center;
 }
+
 #button-password {
   align-items: center;
 }
@@ -31,10 +34,6 @@ nav {
   flex-direction: column;
 }
 
-main {
-  display: flex;
-}
-
 #trybewarts-forms-logo {
   display: flex;
   height: 500px;
@@ -45,14 +44,3 @@ main {
   display: flex;
   justify-content: space-between;
 }
-
-
-
-
-
-
-
-
-
-
-
