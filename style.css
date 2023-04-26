@@ -7,5 +7,17 @@
   background-color: rgb(50, 167, 145);
   height: 80px;
   width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#trybewarts-header-title {
+  align-self: center;
+  align-items: center;
+}
+
+form {
+  align-self: center;
+  align-items: center;
 }
 
