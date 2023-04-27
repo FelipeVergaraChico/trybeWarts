@@ -29,3 +29,5 @@ const input3 = document.createElement('input');
 input3.id = 'input-email';
 input3.setAttribute('placeholder', 'Email');
 forms.appendChild(input3);
+const select = document.createElement('select');
+select.id = 'house';
