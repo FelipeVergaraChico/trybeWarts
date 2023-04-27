@@ -32,15 +32,23 @@ nav {
   display: flex;
   width: 675px;
   flex-direction: column;
+  justify-content: center;
 }
 
 #trybewarts-forms-logo {
   display: flex;
   height: 500px;
-
 }
 
 main {
   display: flex;
   justify-content: space-between;
+}
+
+#input-name {
+  align-self: flex-start;
+}
+
+#input-lastname {
+  align-self: flex-end;
 }
