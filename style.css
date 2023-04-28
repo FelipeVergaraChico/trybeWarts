@@ -52,7 +52,7 @@ main {
 
 #input-lastname {
   align-self: flex-end;
- 
+
 }
 
 #input-email {
@@ -70,8 +70,8 @@ main {
 }
 
 #house-label {
- display: flex;
- align-self: flex-end;
+  display: flex;
+  align-self: flex-end;
 }
 
 #label-family {
@@ -81,15 +81,15 @@ main {
 
 #radio1 {
   display: flex;
- align-self: flex-start;
+  align-self: flex-start;
 }
 
 #radio2 {
   display: flex;
- align-self: flex-start;
+  align-self: flex-start;
 }
 
 #radio3 {
   display: flex;
- align-self: flex-start;
+  align-self: flex-start;
 }
