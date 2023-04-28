@@ -32,8 +32,6 @@ nav {
   display: flex;
   width: 675px;
   flex-direction: column;
-  justify-content: center;
-  align-content: center;
 }
 
 #trybewarts-forms-logo {
@@ -52,7 +50,6 @@ main {
 
 #input-lastname {
   align-self: flex-end;
-
 }
 
 #input-email {
@@ -65,8 +62,7 @@ main {
 
 #section-form {
   display: flex;
-  align-content: center;
-  justify-content: center;
+  flex-direction: row;
 }
 
 #house-label {
@@ -74,12 +70,17 @@ main {
   align-self: flex-end;
 }
 
-#label-family {
+.radio {
   display: flex;
-  align-self: flex-start;
+  flex-direction: column;
 }
 
-#radio1 {
+/* #label-family {
+  display: flex;
+  flex-direction: co;
+} */
+
+/* #radio1 {
   display: flex;
   align-self: flex-start;
 }
@@ -92,4 +93,9 @@ main {
 #radio3 {
   display: flex;
   align-self: flex-start;
-}
+} */
+
+/* #section-checkbox {
+  display: flex;
+  flex-wrap:wrap;
+} */
