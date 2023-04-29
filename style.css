@@ -32,7 +32,6 @@ nav {
   display: flex;
   width: 675px;
   flex-direction: column;
-  justify-content: center;
 }
 
 #trybewarts-forms-logo {
