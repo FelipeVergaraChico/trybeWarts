@@ -48,3 +48,12 @@ const option4 = document.createElement('option');
 option4.id = 'pytherina-house';
 option4.text = 'Pytherina';
 select.add(option4);
+const criandoLabel = document.createElement('label');
+criandoLabel.id = 'label-family';
+criandoLabel.innerText = 'Qual a sua família?';
+forms.appendChild(criandoLabel);
+const radio = document.createElement('input');
+radio.setAttribute('type', 'radio');
+radio.setAttribute('name', 'family');
+forms.appendChild(radio);
+radio.innerText = 'testetetete'
